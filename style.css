@@ -1,0 +1,1650 @@
+*{
+    margin:0;
+    font-family:Arial ;
+    border:border-box;
+}
+
+.main {
+    height:60px;
+    
+    background-color: #03045e;
+    color:#ade8f4;
+    display: flex;
+    
+    align-items: center;
+    justify-content: space-evenly;
+    
+    
+}
+
+.nav-logo{
+    height:50px;
+    width:105px;
+}
+.logo{
+    background-image: url("amazon_logo1.png");
+    background-size: cover;
+    height:50px;
+    width:100%;
+}
+.border{
+    border:1.5px solid transparent;
+}
+.border:hover{
+    border:2px solid white;
+}
+.add-icon{
+    border:2px solid transparent;
+    position: cover;
+    
+    left:120px;
+    
+}
+.loc3{
+    display:flex;
+    align-items: center;
+}
+.add-icon:hover{
+    border:1.5px solid white;
+    
+}
+.location1{
+    font-size:1rem ;
+    color:#CCCCCC;
+    margin-left: 15px;
+    
+}
+.location2{
+    font-size:1rem ;
+    margin-left: 5px;
+}
+
+.search{
+    height:40px;
+    display:flex;
+    justify-content: space-evenly;
+    background-color: white;
+    width:620px;
+    border-radius:4px;
+    
+  
+}
+
+.search:hover{
+    border:2px solid #febd68;
+}
+
+
+.search_menu{
+    background-color: #febd68;
+    width:50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border:none;
+    
+}
+
+.input_box{
+    width:100%;
+    font-size: 1rem;
+    border:none;
+}
+.search-icon{
+    width:45px;
+    height:40px;
+    background-color: #febd68;
+    color:#0f1111;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.flag{
+    background-image: url("flag1.png");
+    background-size: cover;
+    height:20px;
+    width:30px;
+    
+}
+
+.speak{
+    display:flex;
+    align-items: center;
+    border:2px solid transparent;
+}
+.speak:hover{
+    height:50px;
+    width:75px;
+    border:2px solid #febd68;
+}
+
+
+
+.language{
+    background-color: #febd68;
+    color: black;
+    font-size: 1.1rem;
+    font-weight: 700;
+    border:none;
+}
+.sign_in{
+    color: #f3f3f3;
+    font-size: 12px;
+    margin-left: 5px;
+}
+.Account{
+    color: black;
+    font-size: 14px;
+    font-weight: 700;
+    background-color: #febd68;
+    border:none;
+    
+    
+}
+.sign{
+    border:2px solid transparent;
+}
+.sign:hover{
+    
+    border:2px solid white;
+    
+}
+
+/* body section */
+.bodyfull{
+    background-color: #A3B2B0;
+    display:flex;
+    justify-content: space-evenly;
+    
+}
+.bodyleft 
+{
+    
+    background-color: #E8E4C1;
+    
+    height:600px;
+    width:300px;
+    border-radius: 5%;
+    margin-top: 20px;
+    position:sticky;
+    margin-left: 100px;
+
+}
+.backimg1{
+    background-image: url("picc.jpeg");
+    background-size: cover;
+    height:100px;
+    width:100%;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    
+    
+    
+}
+.bodycenter 
+{
+    background-color: #E8E4C1;
+    
+    height:1500px;
+    width:600px;
+    border-radius: 3%;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+    
+}
+
+.bodyright 
+{
+    background-color: #E8E4C1;
+    
+    height:1500px;
+    width:400px;
+    border-radius: 1.5%;
+    margin-top: 20px;
+    position:sticky;
+    
+
+    
+}
+
+
+.img{
+    height:150px;
+    width:150px;
+    background-image: url("me2.jpeg");
+    background-size:cover;
+    border-radius: 50%;
+    
+    margin-left:70px;
+}
+
+
+
+h2{
+    text-align: center;
+    color: #2C3E50;
+    font-family: 'Lato';
+    font-size: 40px;
+
+}
+
+
+
+.logo1{
+    display: flex;
+    align-items: center;
+}
+.logo{
+    height:20px;
+    width:35px;
+    background-image: url("logo.png");
+    background-size:cover;
+    margin-left: 10px;
+}
+.name1{
+    font-family: 'Garamond';
+    text-align: center;
+}
+.logo2{
+    margin-left: 17px ;
+    font-family: 'Georgia';
+}
+.net1{
+    font-family: 'Lato';
+    color:#2C3E50;
+    text-align: center;
+    
+}
+
+.net1:hover{
+    text-decoration: #2C3E50 underline;
+}
+.net2{
+    font-family: 'Roboto';
+    font-size: larger;
+    color: #3A5F0B;
+    margin-left: 10px;
+}
+.imp-links {
+    margin-left: 10px;
+}
+/* NEWS */
+a{
+    text-decoration: none;
+    color:#660708;
+    margin-left: 5px;
+}
+.news{
+    display:flex;
+    align-items: center;
+}
+/*profile*/
+.profile{
+    display:flex;
+    align-items: center;
+}
+/* group*/
+.Groups{
+    display:flex;
+    align-items: center;
+}
+/* saved items*/
+.Saved-items{
+    display:flex;
+    align-items: center;
+
+}
+/* events*/
+.Events{
+    display:flex;
+    align-items: center;
+}
+    
+
+/*network boxes*/
+.network_body{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+.box{
+    height:150px;
+    width:120px;
+    
+    border-radius: 5%;
+    margin-bottom: 20px;
+    background-color: #D3CCE3;
+    color: black;
+    
+}
+
+/*inbox1*/
+
+.inimg1{
+    height:50px;
+    width:50px;
+    border-radius: 50%;
+    background-image: url("group.jpeg");
+    background-size:cover;
+    margin-left:35px ;
+}
+.inname1{
+    font-family: 'Dancing Script ';
+    font-size: large;
+    text-align: center;
+    font-weight: bold;
+    
+    
+}
+
+.inname1:hover{
+    text-decoration: black underline;
+}
+
+.indesc1{
+    font-family: 'Roboto';
+    font-size: 10px;
+    text-align: center;
+    
+
+}
+button{
+    display:flex;
+    justify-content: center;
+    margin-left: 32px;
+    background-color: #E8A87C;
+    border:2px solid #E8A87C;
+    
+    
+}
+
+.inback_img1{
+    background-image: url("picc7.jpeg");
+    background-size: cover;
+    height:40px;
+    width:100%;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    
+    
+}
+
+
+/* inbox2 */
+
+.inimg2{
+    height:50px;
+    width:50px;
+    border-radius: 50%;
+    background-image: url("debojyoti.jpeg");
+    background-size:cover;
+    margin-left:35px ;
+}
+.inname2{
+    font-family: 'Dancing Script ';
+    font-size: large;
+    text-align: center;
+    font-weight: bold;
+    
+    
+}
+
+.inname2:hover{
+    text-decoration: black underline;
+}
+
+.indesc2{
+    font-family: 'Dancing Script ';
+    font-size: 10px;
+    text-align: center;
+    
+
+}
+button{
+    display:flex;
+    justify-content: center;
+    margin-left: 32px;
+    
+}
+.inback_img2{
+    background-image: url("picc5.jpeg");
+    background-size: cover;
+    
+    height:40px;
+    width:100%;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    
+    
+}
+
+/* incox3*/
+
+.inimg3{
+    height:50px;
+    width:50px;
+    border-radius: 50%;
+    background-image: url("dipto.jpeg");
+    background-size:cover;
+    margin-left:35px ;
+}
+.inname3{
+    font-family: 'Dancing Script ';
+    font-size: large;
+    text-align: center;
+    font-weight: bold;
+    
+    
+}
+
+.inname3:hover{
+    text-decoration: black underline;
+}
+
+.indesc3{
+    font-family: 'Dancing Script ';
+    font-size: 10px;
+    text-align: center;
+    
+
+}
+button{
+    display:flex;
+    justify-content: center;
+    margin-left: 32px;
+    
+}
+.inback_img3{
+    background-image: url("picc6.jpeg");
+    background-size: cover;
+    height:40px;
+    width:100%;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    
+    
+}
+
+/* inbox4 */
+
+
+.inimg4{
+    height:50px;
+    width:50px;
+    border-radius: 50%;
+    background-image: url("debaditya.jpeg");
+    background-size:cover;
+    margin-left:35px ;
+}
+.inname4{
+    font-family: 'Dancing Script ';
+    font-size: large;
+    text-align: center;
+    font-weight: bold;
+    
+    
+}
+
+.inname4:hover{
+    text-decoration: black underline;
+}
+
+.indesc4{
+    font-family: 'Dancing Script ';
+    font-size: 10px;
+    text-align: center;
+    
+
+}
+button{
+    display:flex;
+    justify-content: center;
+    margin-left: 32px;
+    
+}
+.inback_img4{
+    background-image: url("picc8.jpeg");
+    background-size: cover;
+    height:40px;
+    width:100%;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    
+    
+}
+
+/* inbox5 */
+
+.inimg5{
+    height:50px;
+    width:50px;
+    border-radius: 50%;
+    background-image: url("ahir.jpeg");
+    background-size:cover;
+    margin-left:35px ;
+}
+.inname5{
+    font-family: 'Dancing Script ';
+    font-size: large;
+    text-align: center;
+    font-weight: bold;
+    
+    
+}
+
+.inname5:hover{
+    text-decoration: black underline;
+}
+
+.indesc5{
+    font-family: 'Dancing Script ';
+    font-size: 10px;
+    text-align: center;
+    
+
+}
+button{
+    display:flex;
+    justify-content: center;
+    margin-left: 32px;
+    
+}
+.inback_img5{
+    background-image: url("pic11.avif");
+    background-size: cover;
+    height:40px;
+    width:100%;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    
+    
+}
+ /*inbox 6*/
+
+.inimg6{
+    height:50px;
+    width:50px;
+    border-radius: 50%;
+    background-image: url("swarupa.png");
+    background-size:cover;
+    margin-left:35px ;
+}
+.inname6{
+    font-family: 'Dancing Script ';
+    font-size: large;
+    text-align: center;
+    font-weight: bold;
+    
+    
+}
+
+.inname6:hover{
+    text-decoration: black underline;
+}
+
+.indesc6{
+    font-family: 'Dancing Script ';
+    font-size: 10px;
+    text-align: center;
+    
+
+}
+button{
+    display:flex;
+    justify-content: center;
+    margin-left: 32px;
+    
+}
+.inback_img6{
+    background-image: url("picc13.jpeg");
+    background-size: cover;
+    height:40px;
+    width:100%;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    
+    
+}
+/* inbox7*/
+
+.inimg7{
+    height:50px;
+    width:50px;
+    border-radius: 50%;
+    background-image: url("piccc.jpeg");
+    background-size:cover;
+    margin-left:35px ;
+}
+.inname7{
+    font-family: 'Dancing Script ';
+    font-size: large;
+    text-align: center;
+    font-weight: bold;
+    
+    
+}
+
+.inname7:hover{
+    text-decoration: black underline;
+}
+
+.indesc7{
+    font-family: 'Dancing Script ';
+    font-size: 10px;
+    text-align: center;
+    
+
+}
+button{
+    display:flex;
+    justify-content: center;
+    margin-left: 32px;
+    
+}
+.inback_img7{
+    background-image: url("picc14.jpeg");
+    background-size: cover;
+    height:40px;
+    width:100%;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    
+    
+}
+/* incox 8 */
+
+.inimg8{
+    height:50px;
+    width:50px;
+    border-radius: 50%;
+    background-image: url("picc15.jpeg");
+    background-size:cover;
+    margin-left:35px ;
+}
+.inname8{
+    font-family: 'Dancing Script ';
+    font-size: large;
+    text-align: center;
+    font-weight: bold;
+    
+    
+}
+
+.inname8:hover{
+    text-decoration: black underline;
+}
+
+.indesc8{
+    font-family: 'Dancing Script ';
+    font-size: 10px;
+    text-align: center;
+    
+
+}
+button{
+    display:flex;
+    justify-content: center;
+    margin-left: 32px;
+    
+}
+.inback_img8{
+    background-image: url("piccc2.jpeg");
+    background-size: cover;
+    height:40px;
+    width:100%;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    
+    
+}
+
+/*box 9*/
+
+.inimg9{
+    height:50px;
+    width:50px;
+    border-radius: 50%;
+    background-image: url("group.jpeg");
+    background-size:cover;
+    margin-left:35px ;
+}
+.inname9{
+    font-family: 'Dancing Script ';
+    font-size: large;
+    text-align: center;
+    font-weight: bold;
+    
+    
+}
+
+.inname9:hover{
+    text-decoration: black underline;
+}
+
+.indesc9{
+    font-family: 'Dancing Script ';
+    font-size: 10px;
+    text-align: center;
+    
+
+}
+button{
+    display:flex;
+    justify-content: center;
+    margin-left: 32px;
+    
+}
+
+.inback_img9{
+    background-image: url("piccc3.jpeg");
+    background-size: cover;
+    height:40px;
+    width:100%;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    
+    
+}
+
+/* box 10 */
+
+.inimg10{
+    height:50px;
+    width:50px;
+    border-radius: 50%;
+    background-image: url("debaditya.jpeg");
+    background-size:cover;
+    margin-left:35px ;
+}
+.inname10{
+    font-family: 'Dancing Script ';
+    font-size: large;
+    text-align: center;
+    font-weight: bold;
+    
+    
+}
+
+.inname10:hover{
+    text-decoration: black underline;
+}
+
+.indesc10{
+    font-family: 'Dancing Script ';
+    font-size: 10px;
+    text-align: center;
+    
+
+}
+button{
+    display:flex;
+    justify-content: center;
+    margin-left: 32px;
+    
+}
+
+.inback_img10{
+    background-image: url("pic10.jpg");
+    background-size: cover;
+    height:40px;
+    width:100%;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    
+    
+}
+/* box 11 */
+
+.inimg11{
+    height:50px;
+    width:50px;
+    border-radius: 50%;
+    background-image: url("swarupa.png");
+    background-size:cover;
+    margin-left:35px ;
+}
+.inname11{
+    font-family: 'Dancing Script ';
+    font-size: large;
+    text-align: center;
+    font-weight: bold;
+    
+    
+}
+
+.inname11:hover{
+    text-decoration: black underline;
+}
+
+.indesc11{
+    font-family: 'Dancing Script ';
+    font-size: 10px;
+    text-align: center;
+    
+
+}
+button{
+    display:flex;
+    justify-content: center;
+    margin-left: 32px;
+    
+}
+
+.inback_img11{
+    background-image: url("pic10.jpg");
+    background-size: cover;
+    height:40px;
+    width:100%;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    
+    
+}
+
+/* box 12 */
+.inimg12{
+    height:50px;
+    width:50px;
+    border-radius: 50%;
+    background-image: url("ahir.jpeg");
+    background-size:cover;
+    margin-left:35px ;
+}
+.inname12{
+    font-family: 'Dancing Script ';
+    font-size: large;
+    text-align: center;
+    font-weight: bold;
+    
+    
+}
+
+.inname12:hover{
+    text-decoration: black underline;
+}
+
+.indesc12{
+    font-family: 'Dancing Script ';
+    font-size: 10px;
+    text-align: center;
+    
+
+}
+button{
+    display:flex;
+    justify-content: center;
+    margin-left: 32px;
+    
+}
+
+.inback_img12{
+    background-image: url("pic10.jpg");
+    background-size: cover;
+    height:40px;
+    width:100%;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    
+    
+}
+
+.chat{
+       height:100px;
+       width:100px;
+       border-radius: 50%;
+       background-color: whitesmoke;
+       position:fixed;
+       margin-top: 550px;
+       margin-left: 1300px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       background-color: #FFA07A;
+
+        
+}
+.chat i{
+    font-size: 3rem;
+    
+}
+
+/* body 13 */
+
+.inimg13{
+    height:50px;
+    width:50px;
+    border-radius: 50%;
+    background-image: url("ahir.jpeg");
+    background-size:cover;
+    margin-left:35px ;
+}
+.inname13{
+    font-family: 'Dancing Script ';
+    font-size: large;
+    text-align: center;
+    font-weight: bold;
+    
+    
+}
+
+.inname13:hover{
+    text-decoration: black underline;
+}
+
+.indesc13{
+    font-family: 'Dancing Script ';
+    font-size: 10px;
+    text-align: center;
+    
+
+}
+button{
+    display:flex;
+    justify-content: center;
+    margin-left: 32px;
+    
+}
+
+.inback_img13{
+    background-image: url("pic10.jpg");
+    background-size: cover;
+    height:40px;
+    width:100%;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    
+    
+}
+
+.chat{
+       height:100px;
+       width:100px;
+       border-radius: 50%;
+       background-color: whitesmoke;
+       position:fixed;
+       margin-top: 550px;
+       margin-left: 1300px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       background-color: #FFA07A;
+
+        
+}
+.chat i{
+    font-size: 3rem;
+    
+}
+
+/* body 14 */
+
+.inimg14{
+    height:50px;
+    width:50px;
+    border-radius: 50%;
+    background-image: url("swarupa.png");
+    background-size:cover;
+    margin-left:35px ;
+}
+.inname14{
+    font-family: 'Dancing Script ';
+    font-size: large;
+    text-align: center;
+    font-weight: bold;
+    
+    
+}
+
+.inname14:hover{
+    text-decoration: black underline;
+}
+
+.indesc14{
+    font-family: 'Dancing Script ';
+    font-size: 10px;
+    text-align: center;
+    
+
+}
+button{
+    display:flex;
+    justify-content: center;
+    margin-left: 32px;
+    
+}
+
+.inback_img14{
+    background-image: url("pic10.jpg");
+    background-size: cover;
+    height:40px;
+    width:100%;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    
+    
+}
+
+/* body 15*/
+
+.inimg15{
+    height:50px;
+    width:50px;
+    border-radius: 50%;
+    background-image: url("picc15.jpeg");
+    background-size:cover;
+    margin-left:35px ;
+}
+.inname15{
+    font-family: 'Dancing Script ';
+    font-size: large;
+    text-align: center;
+    font-weight: bold;
+    
+    
+}
+
+.inname15:hover{
+    text-decoration: black underline;
+}
+
+.indesc15{
+    font-family: 'Dancing Script ';
+    font-size: 10px;
+    text-align: center;
+    
+
+}
+button{
+    display:flex;
+    justify-content: center;
+    margin-left: 32px;
+    
+}
+.inback_img{
+    background-image: url("piccc2.jpeg");
+    background-size: cover;
+    height:40px;
+    width:100%;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    
+    
+}
+/*box 16 */
+
+.inimg16{
+    height:50px;
+    width:50px;
+    border-radius: 50%;
+    background-image: url("debojyoti.jpeg");
+    background-size:cover;
+    margin-left:35px ;
+}
+.inname16{
+    font-family: 'Dancing Script ';
+    font-size: large;
+    text-align: center;
+    font-weight: bold;
+    
+    
+}
+
+.inname16:hover{
+    text-decoration: black underline;
+}
+
+.indesc16{
+    font-family: 'Dancing Script ';
+    font-size: 10px;
+    text-align: center;
+    
+
+}
+button{
+    display:flex;
+    justify-content: center;
+    margin-left: 32px;
+    
+}
+.inback_img16{
+    background-image: url("picc5.jpeg");
+    background-size: cover;
+    
+    height:40px;
+    width:100%;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    
+    
+}
+
+/* box 17 */
+
+.inimg17{
+    height:50px;
+    width:50px;
+    border-radius: 50%;
+    background-image: url("dipto.jpeg");
+    background-size:cover;
+    margin-left:35px ;
+}
+.inname17{
+    font-family: 'Dancing Script ';
+    font-size: large;
+    text-align: center;
+    font-weight: bold;
+    
+    
+}
+
+.inname17:hover{
+    text-decoration: black underline;
+}
+
+.indesc17{
+    font-family: 'Dancing Script ';
+    font-size: 10px;
+    text-align: center;
+    
+
+}
+button{
+    display:flex;
+    justify-content: center;
+    margin-left: 32px;
+    
+}
+.inback_img17{
+    background-image: url("picc6.jpeg");
+    background-size: cover;
+    height:40px;
+    width:100%;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    
+    
+}
+
+/* box 18 */
+
+.inimg18{
+    height:50px;
+    width:50px;
+    border-radius: 50%;
+    background-image: url("group.jpeg");
+    background-size:cover;
+    margin-left:35px ;
+}
+.inname18{
+    font-family: 'Dancing Script ';
+    font-size: large;
+    text-align: center;
+    font-weight: bold;
+    
+    
+}
+
+.inname18:hover{
+    text-decoration: black underline;
+}
+
+.indesc18{
+    font-family: 'Roboto';
+    font-size: 10px;
+    text-align: center;
+    
+
+}
+button{
+    display:flex;
+    justify-content: center;
+    margin-left: 32px;
+    background-color: #E8A87C;
+    border:2px solid #E8A87C;
+    
+    
+}
+
+.inback_img18{
+    background-image: url("picc7.jpeg");
+    background-size: cover;
+    height:40px;
+    width:100%;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    
+    
+}
+
+/* body 19 */
+
+.inimg19{
+    height:50px;
+    width:50px;
+    border-radius: 50%;
+    background-image: url("group.jpeg");
+    background-size:cover;
+    margin-left:35px ;
+}
+.inname19{
+    font-family: 'Dancing Script ';
+    font-size: large;
+    text-align: center;
+    font-weight: bold;
+    
+    
+}
+
+.inname19:hover{
+    text-decoration: black underline;
+}
+
+.indesc19{
+    font-family: 'Roboto';
+    font-size: 10px;
+    text-align: center;
+    
+
+}
+button{
+    display:flex;
+    justify-content: center;
+    margin-left: 32px;
+    background-color: #E8A87C;
+    border:2px solid #E8A87C;
+    
+    
+}
+
+.inback_img19{
+    background-image: url("picc7.jpeg");
+    background-size: cover;
+    height:40px;
+    width:100%;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    
+    
+}
+
+/* body 20 */
+
+.inimg20{
+    height:50px;
+    width:50px;
+    border-radius: 50%;
+    background-image: url("group.jpeg");
+    background-size:cover;
+    margin-left:35px ;
+}
+.inname20{
+    font-family: 'Dancing Script ';
+    font-size: large;
+    text-align: center;
+    font-weight: bold;
+    
+    
+}
+
+.inname20:hover{
+    text-decoration: black underline;
+}
+
+.indesc20{
+    font-family: 'Roboto';
+    font-size: 10px;
+    text-align: center;
+    
+
+}
+button{
+    display:flex;
+    justify-content: center;
+    margin-left: 32px;
+    background-color: #E8A87C;
+    border:2px solid #E8A87C;
+    
+    
+}
+
+.inback_img20{
+    background-image: url("picc7.jpeg");
+    background-size: cover;
+    height:40px;
+    width:100%;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    
+    
+}
+/* body 21*/
+
+.inimg21{
+    height:50px;
+    width:50px;
+    border-radius: 50%;
+    background-image: url("group.jpeg");
+    background-size:cover;
+    margin-left:35px ;
+}
+.inname21{
+    font-family: 'Dancing Script ';
+    font-size: large;
+    text-align: center;
+    font-weight: bold;
+    
+    
+}
+
+.inname21:hover{
+    text-decoration: black underline;
+}
+
+.indesc21{
+    font-family: 'Roboto';
+    font-size: 10px;
+    text-align: center;
+    
+
+}
+button{
+    display:flex;
+    justify-content: center;
+    margin-left: 32px;
+    background-color: #E8A87C;
+    border:2px solid #E8A87C;
+    
+    
+}
+
+.inback_img21{
+    background-image: url("picc7.jpeg");
+    background-size: cover;
+    height:40px;
+    width:100%;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    
+    
+}
+
+/* body 22 */
+
+.inimg22{
+    height:50px;
+    width:50px;
+    border-radius: 50%;
+    background-image: url("group.jpeg");
+    background-size:cover;
+    margin-left:35px ;
+}
+.inname22{
+    font-family: 'Dancing Script ';
+    font-size: large;
+    text-align: center;
+    font-weight: bold;
+    
+    
+}
+
+.inname22:hover{
+    text-decoration: black underline;
+}
+
+.indesc22{
+    font-family: 'Roboto';
+    font-size: 10px;
+    text-align: center;
+    
+
+}
+button{
+    display:flex;
+    justify-content: center;
+    margin-left: 32px;
+    background-color: #E8A87C;
+    border:2px solid #E8A87C;
+    
+    
+}
+
+.inback_img22{
+    background-image: url("picc7.jpeg");
+    background-size: cover;
+    height:40px;
+    width:100%;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    
+    
+}
+/* body 23 */
+
+.inimg23{
+    height:50px;
+    width:50px;
+    border-radius: 50%;
+    background-image: url("group.jpeg");
+    background-size:cover;
+    margin-left:35px ;
+}
+.inname23{
+    font-family: 'Dancing Script ';
+    font-size: large;
+    text-align: center;
+    font-weight: bold;
+    
+    
+}
+
+.inname23:hover{
+    text-decoration: black underline;
+}
+
+.indesc23{
+    font-family: 'Roboto';
+    font-size: 10px;
+    text-align: center;
+    
+
+}
+button{
+    display:flex;
+    justify-content: center;
+    margin-left: 32px;
+    background-color: #E8A87C;
+    border:2px solid #E8A87C;
+    
+    
+}
+
+.inback_img23{
+    background-image: url("picc7.jpeg");
+    background-size: cover;
+    height:40px;
+    width:100%;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    
+    
+}
+
+/* box 24 */
+
+.inimg24{
+    height:50px;
+    width:50px;
+    border-radius: 50%;
+    background-image: url("group.jpeg");
+    background-size:cover;
+    margin-left:35px ;
+}
+.inname24{
+    font-family: 'Dancing Script ';
+    font-size: large;
+    text-align: center;
+    font-weight: bold;
+    
+    
+}
+
+.inname24:hover{
+    text-decoration: black underline;
+}
+
+.indesc24{
+    font-family: 'Roboto';
+    font-size: 10px;
+    text-align: center;
+    
+
+}
+button{
+    display:flex;
+    justify-content: center;
+    margin-left: 32px;
+    background-color: #E8A87C;
+    border:2px solid #E8A87C;
+    
+    
+}
+
+.inback_img24{
+    background-image: url("picc7.jpeg");
+    background-size: cover;
+    height:40px;
+    width:100%;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    
+    
+}
+/*body*/ 
+
+.div1{
+    height:100px;
+    width: 100%;
+    display:flex;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.div1 p{
+    height: 100px;
+}
+.divicon{
+    height:50px;
+    width:50px;
+    border-radius: 50%;
+    background-image: url("img1.jpeg");
+    background-size: cover;
+
+}
+.divfont{
+    height:20px;
+    width: 200px;
+    font-family: 'Lato';
+    font-size: 1.7rem;
+    margin-left: 10px;
+}
+
+.divfont1{
+    font-size: 15px;
+    margin-top: -60px;
+    margin-left: 10px;
+}
+
+.divwrite{
+    display: flex;
+    flex-wrap: wrap;
+}
+.divpic{
+    height: 500px;
+    width: 500px;
+    background-image: url("img1.jpeg");
+    background-size: cover;
+    
+}
+
+.div2{
+    margin-top: -100px;
+    margin-left: 50px;
+}
+
+.div3{
+    height:50px;
+    width:100%;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 2.5rem;
+    
+    margin-top: -60px;
+}
+
+/*body 2*/
+
+.div4{
+    height:100px;
+    width: 100%;
+    display:flex;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.div4 p{
+    height: 100px;
+}
+.divicon1{
+    height:50px;
+    width:50px;
+    border-radius: 50%;
+    background-image: url("imgg.jpeg");
+    background-size: cover;
+
+}
+.divfont2{
+    height:20px;
+    width: 200px;
+    font-family: 'Lato';
+    font-size: 1.7rem;
+    margin-left: 10px;
+}
+
+.divfont3{
+    font-size: 15px;
+    margin-top: -65px;
+    margin-left: 10px;
+}
+
+.divwrite1{
+    display: flex;
+    flex-wrap: wrap;
+}
+.divpic2{
+    height: 500px;
+    width: 500px;
+    background-image: url("imgg.jpeg");
+    background-size: cover;
+    
+}
+
+.div5{
+    margin-top: -100px;
+    margin-left: 50px;
+}
+
+.div6{
+    height:50px;
+    width:100%;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 2.5rem;
+    
+    margin-top: -60px;
+}
